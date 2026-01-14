@@ -1,7 +1,7 @@
 variable "location" {
   description = "Azure region for the resource group and VNet."
   type        = string
-  default     = "australiaeast"
+  default     = "eastus"
 }
 
 variable "resource_group_name" {
